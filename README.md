@@ -41,6 +41,16 @@ ________________________________________________________________________________
 ### 10 - Count the devisors 
 Given a number n print the number of its devisors. 
 
-**Note : n is up to 1e12**
+**Constraints : n is up to 1e12**
 ________________________________________________________________________________________________________________________
+### 11 - Can you Sum 
+Given 2 integers n , q and array of size n and q query , each qurey will contain 2 numbers a and b 
 
+for each query print the sum of elements between those 2 indeces
+
+**Constraints :** 
+
+**1 <= n , q <= 1e6**
+
+**1 =< a , b <= 1e9**
+________________________________________________________________________________________________________________________
