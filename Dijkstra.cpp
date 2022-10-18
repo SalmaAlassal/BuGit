@@ -20,7 +20,7 @@
 #define F first
 using namespace std;
 typedef long long ll;
-const ll N = 1e5 + 5;
+const ll N = 2e9 + 5;
 vector<pair<int, int>> adj[N];
 ll dist[N], n, m;
 
