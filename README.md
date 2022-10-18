@@ -29,11 +29,11 @@ ________________________________________________________________________________
 ### 8 - Balanced Parentheses : 
 Given a string s containing just the characters '(', ')' determine if the input string is balanced
 
-test cases :
+**Test cases :**
 
-( ( ) ) -> balanced
+**( ( ) ) -> balanced**
 
-( ( ( ) -> not balanced            
+**( ( ( ) -> not balanced**            
 ________________________________________________________________________________________________________________________
 ### 9 - Wait a mintue who are you
 
