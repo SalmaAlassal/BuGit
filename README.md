@@ -21,4 +21,16 @@ We count from 1 to any number you want, we print **Fizz** if the number is divis
 I'm a random number between 1 and 100, can you find me?\
 use **binary search** to find me.
 
+### AverageScore
 
+A program that displays the average score for students courses grades.
+
+
+### PrimeFactorization 
+
+A program that displays the prime factors of a number.
+
+
+### Dijkstra
+
+A program to find the shortest path between the start and end node.
