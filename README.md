@@ -11,7 +11,7 @@ If you have never contributed to an open source project before, and you’re jus
 6. Add the modified file : `git add contributors.md`
 6. Committing the staged file : `git commit -m "[Name] is contributing"`
     - E.g, `git commit -m "Salma is contributing"`
-7. Push it to the remote repo : `git push`
+7. Push it to the **main** remote branch : `git push origin main`
 8. Open your forked repo on GitHub and click on pull request
 9. Create pull request and wait for your changes to get merged.
 
@@ -23,7 +23,7 @@ If you have never contributed to an open source project before, and you’re jus
 5. Solve a bug
 6. Add the modified file
 6. Committing the staged file 
-7. Push it to the remote repo
+7. Push it to the **get-to-git-1** remote repo
 8. Open your forked repo on GitHub and click on pull request
 9. Click on Create pull request button and add a descriptive title and message of your changes and click on Create pull request wait for your changes to get merged.
 
