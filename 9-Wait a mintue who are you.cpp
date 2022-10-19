@@ -7,6 +7,7 @@ int main()
     {
         cout << "wait a minute who are you?\n";
         cin >> name;
+        continue;
     }
     cout << "oh, hi " << name << endl;
     return 0;
