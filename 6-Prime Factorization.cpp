@@ -14,7 +14,7 @@ vector<int> prime_fact(int n) {
     vector<int> primes;
     bool ok = false;
     for (int i = 2; i * i <= n; ++i) {
-        while (n % i = 0) {
+        while (n % i == 0) {
             ok = 1;
             n /= i;
         }
