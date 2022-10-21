@@ -22,10 +22,11 @@ vector<int> prime_fact(int n) {
             primes.push_back(i);
         ok = 0;
     }
+    primes.push_back(n);
     return primes;
 }
 
-void main() {
+int main() {
     int n;
     cin >> n;
     auto res = prime_fact(n);
