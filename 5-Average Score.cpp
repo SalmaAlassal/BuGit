@@ -11,18 +11,20 @@ using namespace std;
  * 66
  * 79
  * The output should be 80.4
- * Fix this code bugs to make it work properly.
+ * Fix this code bugs to make it work properly. // DONE
  * */
+
 int main() {
     int students;
-    while (--students) {
-        int courses, total, grade;
+    cin >> students;
+    while (students--) {
+        int courses, total = 0, grade;
         cin >> courses;
-        for (int i = 0; i <= courses; ++i) {
+        for (int i = 0; i < courses; i++) {
             cin >> grade;
             total += grade;
         }
-        cout << "The Average is" << total / courses << '\n';
+        cout << "The Average is " << float(total) / float(courses) << '\n';
     }
     return 0;
 }
