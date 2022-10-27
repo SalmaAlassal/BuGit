@@ -14,7 +14,7 @@ vector<int> prime_fact(int n) {
     vector<int> primes;
     bool ok = false;
     for (int i = 2; i * i <= n; ++i) {
-        while (n % i = 0) {
+        while (n % i == 0) {
             ok = 1;
             n /= i;
         }
@@ -22,10 +22,11 @@ vector<int> prime_fact(int n) {
             primes.push_back(i);
         ok = 0;
     }
+    primes.push_back(n);
     return primes;
 }
 
-void main() {
+int main() {
     int n;
     cin >> n;
     auto res = prime_fact(n);
